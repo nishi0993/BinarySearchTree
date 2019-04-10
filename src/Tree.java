@@ -14,6 +14,8 @@ public class Tree {
 
     public Tree() {this.root=null;
     }
+    protected Tree(Node root){this.root=root;
+    }
 
     }
 
