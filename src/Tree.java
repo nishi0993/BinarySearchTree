@@ -40,6 +40,14 @@ public class Tree {
             return null;
         }
     }
+    public Tree getRightTree(){
+        if(root!=null && root.rightChild!=null){
+            return new Tree(root.rightChild);
+        }
+        else{
+            return null;
+        }
+    }
 
     }
 }
