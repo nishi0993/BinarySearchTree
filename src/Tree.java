@@ -16,7 +16,20 @@ public class Tree {
     }
     protected Tree(Node root){this.root=root;
     }
-
+    public Tree(int data,Tree leftTree,Tree rightTree){
+        this.root=new Node(data);
+        if(leftTree!=null){
+            this.root.leftChild=leftTree.root;
+        }
+        else{
+            this.root.leftChild=null;
+        }
+        if(rightTree!=null){
+            this.root.rightChild=rightTree.root;
+        }
+        else{
+            this.root.rightChild=null;
+        }
     }
 
 }
