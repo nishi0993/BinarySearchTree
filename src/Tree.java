@@ -32,4 +32,14 @@ public class Tree {
         }
     }
 
+    public Node getLeftTree() {
+        if(root!=null && root.leftChild!=null){
+            return new Tree(root.leftChild);
+        }
+        else{
+            return null;
+        }
+    }
+
+    }
 }
