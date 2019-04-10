@@ -12,6 +12,9 @@ public class Tree {
     }
     protected Node root;
 
+    public Tree() {this.root=null;
+    }
+
     }
 
 }
