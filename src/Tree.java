@@ -9,6 +9,9 @@ public class Tree {
             this.leftChild=null;
             this.rightChild=null;
         }
+    }
+    protected Node root;
 
     }
+
 }
