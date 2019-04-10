@@ -4,5 +4,11 @@ public class Tree {
         private Node leftChild;
         private Node rightChild;
 
+        public Node(int data) {
+            this.data = data;
+            this.leftChild=null;
+            this.rightChild=null;
+        }
+
     }
 }
