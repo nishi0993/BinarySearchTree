@@ -51,6 +51,17 @@ public class Tree {
     public boolean isLeaf(){
         return (root.leftChild==null && root.rightChild==null);
     }
+    public boolean isLeaf(Node node){
+        return (node.leftChild==null && node.rightChild==null);
+    }
+    private boolean isNullTree(){
+        boolean r=false;
+        if(this.root==null){
+            r=true;
+        }
+        return r;
+    }
+
 
     }
 }
