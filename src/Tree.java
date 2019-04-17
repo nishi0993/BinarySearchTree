@@ -62,6 +62,12 @@ public class Tree {
         return r;
     }
 
+    @Override
+    public String toString() {
+        StringBuilder sb =new StringBuilder();
+        toString(root,1,sb);
+        return sb.toString();
+    }
 
     }
 }
