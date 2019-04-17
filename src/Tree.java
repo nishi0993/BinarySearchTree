@@ -48,6 +48,9 @@ public class Tree {
             return null;
         }
     }
+    public boolean isLeaf(){
+        return (root.leftChild==null && root.rightChild==null);
+    }
 
     }
 }
